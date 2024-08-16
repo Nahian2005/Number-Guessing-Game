@@ -9,7 +9,7 @@ var num = Math.floor(Math.random() *9 ) +1;
 if(guessingnum == num){
 
 
-    document.write("<h1> Congratulations! YOU WON THE GAME! </h1>");
+    document.write("<h1> Congratulations! YOU WON THE GAME! YOU GUESSED THE RIGHT NUMBER! </h1>");
 
     numberofwon++
 
@@ -19,7 +19,7 @@ if(guessingnum == num){
     
 else{  
    
-   document.write(" <h4> LOL! YOU LOSE THE GAME! Go EAT GRASS IN your HOUSE! </h4> The Random number was: " +  num +"<br/>" );
+   document.write(" <h4> LOL! YOU LOSE THE GAME! Go EAT GRASS IN your HOUSE BEACUSE YOU GUESSED THE WRONG NUMBER! </h4> The Random number was: " +  num +"<br/>" );
 
    numberoflose++
    document.write("Number of tries:  " + numberoflose + " <h5> This was expected. This user is so dumb that he cannot guess a correct number!LOL!! <h5/>" + "<br/>" );
